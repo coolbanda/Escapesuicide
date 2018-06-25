@@ -1,0 +1,84 @@
+.img-circle {
+    border-radius: 50%;
+    width:15vw;
+    border:none;
+    height: 30vh;
+    box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.25);
+    transition:0.2s ease-in;
+}
+
+.img-circle:hover{
+    box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.25),7px 7px 10px 3px rgba(0,191,255, 0.25);
+    transform: scale(1.1);
+}
+
+#Team {
+    position: relative;
+    left:6vw;
+}
+#TeamImg {
+    font-size:2.7vh;
+    width:20vw;
+    text-align: center;
+    
+}
+.reveal section img {  
+    border: none;
+    display: inline;
+    margin-right:2vw;
+}
+.m1 a:link,.m1 a:visited {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in;
+}
+
+.m1 a:hover,.m1 a:active {
+    background-color: black;
+    color: white;
+}
+.ImgDetail {
+    font-size: 25px;
+    margin-top: 4px;
+    
+}
+.m1:hover {
+    color:white;
+}
+@media only and (max-width:1299px) {
+     .img-circle {
+    border-radius: 50%;
+    width:10vw;
+    border:none;
+    height: 20vh;
+    box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.25);
+    transition:0.2s ease-in;
+}
+
+.img-circle:hover{
+    box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.25),7px 7px 10px 3px rgba(0,191,255, 0.25);
+    transform: scale(1.1);
+}
+
+#Team {
+    position: relative;
+    left:3vw;
+}
+#TeamImg {
+    font-size:20px;
+    width:15vw;
+    float: left;
+}
+.reveal section img {  
+    border: none;
+    display: inline;
+    margin-right:2vw;
+    }
+
+}
